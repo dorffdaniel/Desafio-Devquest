@@ -3,19 +3,20 @@
     header{
         display: flex;
         height: 70px;
-        justify-content: flex-start;
+        align-items: center;
     }
    
     header img{
         display: flex;
-        margin-left: 30px;
         width: 130px;
+        margin-left: 40px;
     }
     
     .container{
         display: flex;
         flex-direction: column;
         height: 500px;
+        gap: 0;
     }
 
 
@@ -29,7 +30,7 @@
     }
 
     .container .image img{
-        width: 250px;
+        max-width: 300px;
     }
 
     .texto{
